@@ -1,24 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './components/pages/Home';
+import AllServices from './components/pages/AllServices'; // Import All Services page component
+import ContactUs from './components/pages/ContactUs'; // Import Contact Us page component
+import AboutUs from './components/pages/AboutUs'; // Import About Us page component
+import VisaServicesPage from './components/pages/VisaServicesPage';
+import TourServicesPage from './components/pages/TourServicesPage.js';
+import HajjUmmrahPage from './components/pages/HajjUmmrahPage.js';
+import HotelBookingPage from './components/pages/HotelBookingpage.js';
+import TicketsPage from './components/pages/TicketsPage.js';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/services" element={<AllServices />} />
+        <Route path="/contact" element={<ContactUs />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/visa-services" element={<VisaServicesPage />} />
+        <Route path="/tour-services" element={<TourServicesPage />} />
+        <Route path="/hajjumrah-services" element={<HajjUmmrahPage />} />
+        <Route path="/hotrelbooking-services" element={<HotelBookingPage />} />
+        <Route path="/ticket-services" element={<TicketsPage />} />
+
+
+
+     
+      </Routes>
+    </Router>
   );
 }
 
