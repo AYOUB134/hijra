@@ -10,7 +10,8 @@ const Footer = () => {
         <div className="p-6 flex flex-col justify-between rounded-lg">
           <h3 className="text-xl font-bold mb-4">Contact Details:</h3>
           <p className="mb-2 text-sm">
-          <strong>Chief Exective:</strong>Haji M.Nasruallah Jan<br />
+          <strong>Chief Exective:</strong><br />
+          <strong>Haji M.Nasruallah Jan : </strong>+92-3339865991<br />
           <strong>Acounnts Deparment:</strong>+92-3339662093<br />
           <strong>Sales Officer:</strong>+92-3339023191 <br />
             <strong>WhatsApp:</strong>+92-3339865991<br />
