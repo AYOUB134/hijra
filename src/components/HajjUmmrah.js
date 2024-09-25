@@ -152,7 +152,7 @@ const HajjUmmrah = () => {
               </div>
               <div className="mt-auto">
                 <a
-                  href="https://wa.me/+923005959681"
+                  href="https://wa.me/+923339865991"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block bg-blue-500 text-white text-center py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors duration-300"

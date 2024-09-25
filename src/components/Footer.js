@@ -10,8 +10,11 @@ const Footer = () => {
         <div className="p-6 flex flex-col justify-between rounded-lg">
           <h3 className="text-xl font-bold mb-4">Contact Details:</h3>
           <p className="mb-2 text-sm">
-            <strong>WhatsApp:</strong> +92 333 4796932, +92 300 5959681<br />
-            <strong>Email:</strong> <a href="mailto:hijrahinsight598@gmail.com" className="text-blue-400 hover:underline">hijrahinsight598@gmail.com</a>
+          <strong>Chief Exective:</strong>Haji M.Nasruallah Jan<br />
+          <strong>Acounnts Deparment:</strong>+92-3339662093<br />
+          <strong>Sales Officer:</strong>+92-3339023191 <br />
+            <strong>WhatsApp:</strong>+92-3339865991<br />
+            <strong>Email:</strong> <a href="mailto:hijrahinsight@outlook.com" className="text-blue-400 hover:underline">hijrahinsight@outlook.com</a>
           </p>
           <p className="mb-2 text-sm">
             <strong>Office:</strong><br />
@@ -52,7 +55,7 @@ const Footer = () => {
             <strong>IBAN:</strong> PK82JSBL9552000002563311
           </p>
           <p className="text-sm">
-            <strong>National Bank of Pakistan</strong><br />
+            <strong>HabibMetro Bank</strong><br />
             <strong>Title:</strong> Hijrah Insight Travel and Tours<br />
             <strong>Branch Code:</strong> 0653<br />
             <strong>Account #:</strong> 406532031714106507<br />
